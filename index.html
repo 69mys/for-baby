@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>not a lot,just forever</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h2>Click the hearts baby</h2>
+        <audio id="background-music" src="media/song.mp3" hidden></audio>
+
+
+        <div class="hearts">
+            <img src="media/heart1.png" class="heart1" style="top: 40px; left: 60px;" onclick="startScene(1, event)">
+            <img src="media/heart2.png" class="heart2" style="top: 120px; left: 250px;" onclick="startScene(2, event)">
+            <img src="media/heart3.png" class="heart3" style="top: 200px; left: 100px;" onclick="startScene(3, event)">
+            <img src="media/heart4.png" class="heart4" style="top: 280px; left: 300px;" onclick="startScene(4, event)">
+            <img src="media/heart5.png" class="heart5" style="top: 360px; left: 150px;" onclick="startScene(5, event)">
+            <img src="media/heart6.png" class="heart6" style="top: 440px; left: 270px;" onclick="startScene(6, event)">
+            <img src="media/heart7.png" class="heart7" style="top: 520px; left: 80px;" onclick="startScene(7, event)">
+        </div>
+    </div>
+
+    <div id="scene-container" style="display: none;">
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
